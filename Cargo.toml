@@ -1,0 +1,9 @@
+[package]
+name = "leetcode_rust"
+version = "0.0.1"
+authors = ["weihuacern <weihua19900704@gmail.com>"]
+edition = "2018"
+
+[lib]
+doctest = false
+test = true
