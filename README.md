@@ -11,10 +11,20 @@ A leetcode practice repo in rust.
 ```bash
 brew install rustup
 rustup-init
-rustc --version
+```
+
+```bash
+ weihua@localhost  ~/leetcode_rust   main  rustc --version                                                    ✔  10092  08:36:54
+rustc 1.49.0 (e1884a8e3 2020-12-29)
 ```
 
 ### Run
+
+Lint:
+
+```bash
+cargo clippy
+```
 
 To test all solutions:
 
