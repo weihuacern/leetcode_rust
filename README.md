@@ -16,8 +16,23 @@ rustc --version
 
 ### Run
 
+To test all solutions:
+
 ```bash
-cargo test test_1
+cargo test
+```
+
+To test one single solution:
+
+```bash
+cargo test test_{question ID}
+```
+
+For example,
+
+```bash
+cargo test test_0001
+cargo test test_0002
 ```
 
 ## LeetCode
