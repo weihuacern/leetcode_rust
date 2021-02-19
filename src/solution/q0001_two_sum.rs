@@ -16,7 +16,6 @@
  * return [0, 1].
  *
  */
-
 use std::collections::HashMap;
 
 pub struct Solution {}

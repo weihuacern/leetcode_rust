@@ -7,7 +7,10 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     pub fn new(value: i32) -> Self {
-        ListNode {val: value, next: None}
+        ListNode {
+            val: value,
+            next: None,
+        }
     }
 }
 
