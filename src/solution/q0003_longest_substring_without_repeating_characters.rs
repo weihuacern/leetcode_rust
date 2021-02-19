@@ -1,3 +1,4 @@
+use std::cmp::max;
 /**
  * [3] Longest Substring Without Repeating Characters
  *
@@ -10,9 +11,7 @@
  * Explanation: The answer is "abc", with the length of 3.
  *
  */
-
 use std::collections::HashSet;
-use std::cmp::max;
 
 pub struct Solution {}
 
@@ -54,19 +53,13 @@ mod tests {
             3
         );
 
-        assert_eq!(
-            Solution::length_of_longest_substring("zzzz".to_string()),
-            1
-        );
+        assert_eq!(Solution::length_of_longest_substring("zzzz".to_string()), 1);
 
         assert_eq!(
             Solution::length_of_longest_substring("pwwkew".to_string()),
             3
         );
 
-        assert_eq!(
-            Solution::length_of_longest_substring("".to_string()),
-            0
-        );
+        assert_eq!(Solution::length_of_longest_substring("".to_string()), 0);
     }
 }

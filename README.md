@@ -19,27 +19,27 @@ rustc 1.49.0 (e1884a8e3 2020-12-29)
 ```
 
 ### Run
+Format:
+```bash
+cargo fmt
+```
 
 Lint:
-
 ```bash
 cargo clippy
 ```
 
 To test all solutions:
-
 ```bash
 cargo test
 ```
 
 To test one single solution:
-
 ```bash
 cargo test test_{question ID}
 ```
 
 For example,
-
 ```bash
 cargo test test_0001
 cargo test test_0002

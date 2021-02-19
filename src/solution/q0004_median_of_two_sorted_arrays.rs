@@ -26,7 +26,6 @@
  *
  *
  */
-
 use std::cmp;
 use std::i32;
 
@@ -45,9 +44,9 @@ impl Solution {
         }
         if n1 == 0 {
             if (n2 % 2) != 0 {
-                return nums2[n/2] as f64;
+                return nums2[n / 2] as f64;
             } else {
-                return (nums2[n/2-1] + nums2[n/2]) as f64 / 2.0;
+                return (nums2[n / 2 - 1] + nums2[n / 2]) as f64 / 2.0;
             }
         }
 
